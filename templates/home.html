@@ -1,0 +1,17 @@
+{% extends "base.html" %} {% block title %}Parking Space Detection{% endblock %}
+{% block content %}
+<div class="card">
+  <div class="card-header">Welcome {{name}}</div>
+  <div class="card-body">
+    <h5 class="card-title">Find Parking Spots</h5>
+    <p class="card-text">Your location is [80.321, 21.213]</p>
+    <br /><br />
+    <div class="col-sm-6">
+      <br /><br />
+      <button type="submit" value="submit" class="btn btn-primary">
+        predict
+      </button>
+    </div>
+  </div>
+  {% endblock %}
+</div>
